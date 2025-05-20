@@ -10,7 +10,7 @@ from dash import dcc
 from dash import html
 from dash.dependencies import Input, Output
 
-caminho_arquivo = r'C:\Users\Vini\Downloads\ecommerce_estatistica.csv'
+caminho_arquivo = 'ecommerce_estatistica.csv'
 df = pd.read_csv(caminho_arquivo)
 
 def limpar_qtd_vendidos(valor):
