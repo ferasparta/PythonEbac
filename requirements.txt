@@ -1,3 +1,7 @@
 pandas
 plotly
 dash
+matplotlib
+seaborn
+numpy
+statsmodels
